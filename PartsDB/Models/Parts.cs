@@ -19,5 +19,6 @@ namespace PartsDB.Models
         public string? ImgPath { get; set; }
         public string? ShortInfo { get; set; }
         public int idCategory { get; set; }
+
     }
 }
