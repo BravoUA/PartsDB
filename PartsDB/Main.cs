@@ -44,6 +44,7 @@ namespace PartsDB
         {
             List<Parts> parts = new List<Parts>();
 
+
              Parts = dbConnect.Parts.ToList();
             foreach (var item in Parts)
             {
